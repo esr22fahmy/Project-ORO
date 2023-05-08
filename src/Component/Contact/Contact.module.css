@@ -1,0 +1,63 @@
+:root {
+    --colorBlue: #0057FF;
+    --colorGold: #A28547;
+    --colorWhite:#FFFFFF;
+}
+
+/* .sec{
+        background-color: rgb(249,249,249) !important;
+
+} */
+
+.spaceX{
+    margin: 0rem 5rem !important;
+}
+
+.sectionTitle{
+    font-size: 30px;
+    display: inline-block;
+    font-weight: 700;
+}
+
+.line{
+      height: 1px;
+    margin: 0 auto 30px;
+    width: 60px;
+    background-color: var( --colorGold);
+    margin-bottom: 3rem !important;
+}
+
+.formGroup {
+    margin-bottom: 2rem;
+}
+
+.formControl{
+        padding: 10px;
+    border: 1px solid #f1f1f1 !important;
+background-color: #fff !important;
+}
+
+.formControl:focus{
+    border-color:var( --colorGold) !important;
+    box-shadow:none !important;
+}
+
+.btn{
+      font-size: 14px;
+    padding: 10px 30px;
+    cursor: pointer;
+    font-weight: 400;
+    color: #fff;
+    border-radius: 30px;
+    transition: all .3s;
+    display: inline-block;
+    background-color: var(--colorGold);
+    border: var(--colorGold);
+}
+
+.btn:hover{
+    color: var(--colorGold);
+    background: transparent;
+    border: 1px dotted var(--colorGold);
+    box-shadow: 0 6px 22px rgba(0,0,0,.1);
+}

@@ -1,0 +1,56 @@
+:root {
+    /* --colorBlue: #0057FF; */
+    --colorGold: #A28547;
+    --colorWhite:#FFFFFF;
+}
+
+.sec{
+    padding: 0 5rem !important;
+}
+
+.Manage{
+    color: #a5a7aa;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 5rem;
+}
+
+.sectionTitle{
+    font-size: 30px;
+    display: inline-block;
+    font-weight: 700;
+}
+
+.parag{
+    margin-bottom: 30px;
+        margin-top: 15px;
+    color: #a5a7aa;
+        font-weight: 400;
+    font-size: 16px;
+    width: 85% !important;
+
+}
+
+.btnRead{
+    background-color:var( --colorGold);
+    border: var( --colorGold);
+    position: relative;
+    z-index: 1;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 10px 30px;
+    cursor: pointer;
+    font-weight: 400;
+    color: #fff;
+    border-radius: 30px;
+    transition: all .3s;
+}
+
+.btnRead:hover{
+color: var( --colorGold);
+    background: transparent;
+    border: 1px dotted var( --colorGold);
+    box-shadow: 0 6px 22px rgba(0,0,0,.1);
+
+
+}

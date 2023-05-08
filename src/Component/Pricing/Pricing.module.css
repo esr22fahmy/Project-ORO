@@ -1,0 +1,125 @@
+:root {
+  /* --colorBlue: #0057ff; */
+  --colorGold: #A28547;
+  --colorWhite: #ffffff;
+}
+
+.sectionTitle {
+  font-size: 30px;
+  display: inline-block;
+  font-weight: 700;
+}
+
+.line {
+  height: 1px;
+  margin: 0 auto 30px;
+  width: 60px;
+  background-color: var(--colorGold);
+}
+
+.iconBox,
+.iconBox2 {
+  background-color: #ebedef;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s;
+}
+
+.iconBox2 {
+  background-color: var(--colorGold);
+}
+
+.icon,
+.icon2 {
+  line-height: 80px;
+  font-size: 30px;
+  color: var(--colorGold);
+  transition: all 0.3s;
+}
+
+.icon2 {
+  color: var(--colorWhite);
+}
+
+.priceValue {
+  font-size: 26px;
+  color: var(--colorGold);
+  position: relative;
+  text-align: center;
+  font-weight: 700;
+}
+
+.textSpan {
+  font-size: 15px !important;
+  color: #abacae !important;
+  font-weight: 400;
+}
+
+.title {
+  text-transform: uppercase;
+  font-size: 18px !important;
+  font-weight: 700;
+}
+
+.description {
+  text-align: center;
+  padding: 0 40px;
+  margin-bottom: 20px;
+}
+
+.description li {
+  font-size: 14px;
+  font-weight: 400;
+  color: #abacae;
+  padding: 4px 0;
+}
+.table {
+  margin-top: 15px;
+  padding: 30px;
+  border-radius: 4px;
+  border: none !important;
+    box-shadow: 0 2px 18px 0 rgba(248, 245, 245, 0.5);
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.table:hover {
+  color: var(--colorWhite);
+        box-shadow: 0 10px 22px 10px rgba(152, 155, 159, 0.731);
+}
+
+.table:hover .icon {
+  color: var(--colorWhite);
+}
+
+.table:hover .iconBox {
+  background-color: var(--colorGold);
+}
+.btn {
+  font-size: 14px;
+  padding: 10px 30px;
+  cursor: pointer;
+  font-weight: 400;
+  color: #fff;
+  border-radius: 30px;
+  transition: all 0.3s;
+  display: inline-block;
+  background-color: var(--colorGold);
+  border: var(--colorGold);
+}
+
+.btn:hover {
+  color: var(--colorGold);
+  background: transparent;
+  border: 1px dotted var(--colorGold);
+  box-shadow: 0 6px 22px rgba(0, 0, 0, 0.1);
+}
+
+.spaceX{
+    margin: 0rem 5rem !important;
+}

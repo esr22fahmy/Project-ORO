@@ -1,0 +1,121 @@
+:root {
+    /* --colorBlue: #0057FF; */
+    --colorGold: #A28547;
+    --colorWhite:#FFFFFF;
+}
+
+.fusion{
+    font-size: 3rem;
+    text-transform: capitalize;
+    color: var(--colorGold);
+}
+
+.secFooter{
+        padding: 0rem 4rem !important;
+
+}
+
+.textwid{
+    width: 75%;
+}
+
+.textwid p{
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.socialIcon a{
+color: var(--colorWhite) !important;
+    width: 32px;
+    height: 32px;
+    line-height: 34px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 20px;
+    margin: 15px 6px 12px 4px;
+    transition: all .3s;
+}
+
+.socialIcon .facebook:hover {
+    background: #3b5999 !important;
+    color: #fff !important;
+}
+
+.socialIcon .twitter:hover {
+    background: #4a9cec !important;
+    color: #fff !important;
+}
+
+.socialIcon .instagram:hover {
+    background: #d6274d !important;
+    color: #fff !important;
+}
+
+.socialIcon .linkedin:hover{
+    background: #1260a2;
+        color: #fff !important;
+
+}
+
+.footerTitel{
+        font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 20px;
+    letter-spacing: .5px;
+    
+}
+
+a{
+/* color: #abacae !important; */
+    font-size: 16px;
+    font-weight: 400;
+    transition: all 0.3s;
+}
+
+.footerLink li a:hover {
+    color:#abacae !important;
+}
+.footerLink{
+   
+  line-height: 35px;
+  position: relative;
+    left: -20px;
+}
+
+.footerLink a{
+        color:#abacae !important;
+
+}
+
+
+.icon i{
+    font-size: 22px;
+    width: 32px;
+    vertical-align: middle;
+    height: 36px;
+    text-align: center;
+    display: inline-block;
+    /* float: left; */
+    margin-right: 5px;
+    line-height: 32px;
+}
+
+
+.line{
+        border-top: 1px solid #d5d4e9;
+    padding: 15px 0;
+    margin: 45px 0 0;
+}
+
+.UIdeck{
+    color: var(--colorGold) !important;
+}
+ul {
+    /* padding-left: 1.5rem; */
+        margin-block-start: 0em;
+    margin-block-end: 0em;
+    padding-inline-start: 0px;
+        /* padding-inline-start: 15px; */
+
+}

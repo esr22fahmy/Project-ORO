@@ -1,0 +1,98 @@
+:root {
+    /* --colorBlue: #0057FF; */
+    --colorGold: #A28547;
+    --colorWhite:#FFFFFF;
+}
+
+/* .bground{
+    background-color: rgb(249,249,249) !important;
+} */
+
+.our{
+    font-size: 30px;
+    display: inline-block;
+    font-weight: 700;
+}
+
+.lineOur{
+    height: 1px;
+    margin: 0 auto 30px;
+    width: 60px;
+    background-color: var(--colorGold);
+}
+
+.servicesItem{
+    padding: 20px;
+    border-radius: 4px;
+    text-align: center;
+    margin: 15px 0;
+    cursor: pointer;
+    box-shadow: 0 2px 18px 0 rgba(248, 245, 245, 0.5);
+    transition: all .3s;
+    height: 90%;
+    
+}
+.servicesItem:hover{
+        box-shadow: 0 10px 22px 10px rgba(152, 155, 159, 0.731);
+
+}
+
+
+.icon{
+    border: 1px solid rgba(198,198,198,.3);
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .3s;
+}
+
+.servicesItem:hover .icon {
+    background-color: var(--colorGold);
+    color: #fff !important;
+}
+
+.servicesItem:hover .icon .gear{
+    color: #fff !important;
+}
+
+
+.gear{
+    font-size: 30px;
+    color: var(--colorGold);
+    line-height: 70px;
+    transition: all .3s;
+}
+
+.easy{
+    
+    color: var(--colorWhite) !important;
+    font-size: 16px;
+    font-weight: 800
+    /* font-size: ; */
+       
+}
+.partSentence .easy:hover {
+    color: var(--colorGold) !important;
+}
+
+.partSentence{
+    font-size: 16px !important;
+    font-weight: 800 !important;
+    margin-top: 15px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.maximus{
+    color: #a5a7aa;
+    line-height: 25px;
+}
+
+.spaceX{
+    margin: 0rem 5rem !important;
+}
+
