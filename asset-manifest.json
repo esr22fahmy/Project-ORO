@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/Project-ORO/static/css/main.1cd17cf3.css",
+    "main.js": "/Project-ORO/static/js/main.5e9b08e9.js",
+    "static/js/787.2dbc888d.chunk.js": "/Project-ORO/static/js/787.2dbc888d.chunk.js",
+    "static/media/homeIMG.png": "/Project-ORO/static/media/homeIMG.d3248fb35410f9e71a8f.png",
+    "static/media/6.png": "/Project-ORO/static/media/6.10628b447e64897c5c54.png",
+    "static/media/4.png": "/Project-ORO/static/media/4.5b5c114cd30192b5edb9.png",
+    "static/media/5.png": "/Project-ORO/static/media/5.a3e66a6b30e53608868a.png",
+    "static/media/3.png": "/Project-ORO/static/media/3.5848b6c8266d402492f6.png",
+    "static/media/Card_3-768x567.png": "/Project-ORO/static/media/Card_3-768x567.a030b4aeeb4f3d68693a.png",
+    "static/media/Card_2-768x566.png": "/Project-ORO/static/media/Card_2-768x566.0a966a3af8ad57cfe95e.png",
+    "static/media/Card_1-768x567.png": "/Project-ORO/static/media/Card_1-768x567.8bdc0ffb26b6c91aadd0.png",
+    "static/media/1.png": "/Project-ORO/static/media/1.072e4eb6b9b7516bb76e.png",
+    "static/media/fa-solid-900.ttf": "/Project-ORO/static/media/fa-solid-900.4a2cd718d7031b732e76.ttf",
+    "static/media/2.png": "/Project-ORO/static/media/2.7ae8450990aef87f1990.png",
+    "static/media/fa-brands-400.ttf": "/Project-ORO/static/media/fa-brands-400.150de8eaa454d669c405.ttf",
+    "static/media/fa-solid-900.woff2": "/Project-ORO/static/media/fa-solid-900.bb975c966c37455a1bc3.woff2",
+    "static/media/Vector Smart Object.png": "/Project-ORO/static/media/Vector Smart Object.77288796c5c35e1cfd5e.png",
+    "static/media/oro2.png": "/Project-ORO/static/media/oro2.df25a657f4933be64026.png",
+    "static/media/fa-brands-400.woff2": "/Project-ORO/static/media/fa-brands-400.e033a13ee751afc1860c.woff2",
+    "static/media/fa-regular-400.ttf": "/Project-ORO/static/media/fa-regular-400.d87474231f4192884802.ttf",
+    "static/media/fa-regular-400.woff2": "/Project-ORO/static/media/fa-regular-400.3223dc79c1adee56370b.woff2",
+    "static/media/fa-v4compatibility.ttf": "/Project-ORO/static/media/fa-v4compatibility.0e3a648be390bd8cb094.ttf",
+    "static/media/fa-v4compatibility.woff2": "/Project-ORO/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
+    "index.html": "/Project-ORO/index.html",
+    "main.1cd17cf3.css.map": "/Project-ORO/static/css/main.1cd17cf3.css.map",
+    "main.5e9b08e9.js.map": "/Project-ORO/static/js/main.5e9b08e9.js.map",
+    "787.2dbc888d.chunk.js.map": "/Project-ORO/static/js/787.2dbc888d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1cd17cf3.css",
+    "static/js/main.5e9b08e9.js"
+  ]
+}
