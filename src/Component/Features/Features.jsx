@@ -1,5 +1,4 @@
 import React from "react";
-// eslint-disable-next-line no-unused-vars
 import img1 from "../../img/1.png";
 import img2 from "../../img/2.png";
 import img3 from "../../img/3.png";
@@ -12,7 +11,6 @@ import { useTranslation } from "react-i18next";
 import lottie from "lottie-web";
 import { defineElement } from "lord-icon-element";
 
-// define "lord-icon" custom element with default properties
 defineElement(lottie.loadAnimation);
 
 export default function Pricing({ lang, dir }) {

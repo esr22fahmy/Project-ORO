@@ -1,11 +1,11 @@
 import React from "react";
 import styleFooter from "./Footer.module.css";
-import imgFooter from '../../img/oro2.png'
+import imgFooter from "../../img/oro2.png";
 import { useTranslation } from "react-i18next";
 
 export default function Footer({ dir }) {
   const { t } = useTranslation("footer");
-  
+
   return (
     <>
       <footer
@@ -42,8 +42,9 @@ export default function Footer({ dir }) {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-3 col-md-6 col-sm-12 col-xs-12">
-                <h3 className={`${styleFooter.footerTitel} `}>
+
+              <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                <h3 className={`${styleFooter.footerTitel}`}>
                   {t("Products")}
                 </h3>
                 <ul className={`${styleFooter.footerLink}`}>
@@ -64,9 +65,10 @@ export default function Footer({ dir }) {
                   </li>
                 </ul>
               </div>
+
               {/* 2 */}
               <div className="col-lg-3 col-md-6 col-sm-12 col-xs-12 ">
-                <h3 className={`${styleFooter.footerTitel} ms-4`}>
+                <h3 className={`${styleFooter.footerTitel} `}>
                   {t("Resources")}
                 </h3>
                 <ul className={`${styleFooter.footerLink}`}>
@@ -88,7 +90,7 @@ export default function Footer({ dir }) {
                 </ul>
               </div>
               <div className="col-lg-3 col-md-6 col-sm-12 col-xs-12">
-                <h3 className={`${styleFooter.footerTitel} ms-4`}>
+                <h3 className={`${styleFooter.footerTitel} `}>
                   {t("Contact")}
                 </h3>
                 <ul className={`${styleFooter.footerLink}`}>

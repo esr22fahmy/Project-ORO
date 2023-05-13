@@ -1,19 +1,20 @@
-import React from "react";
-import AppBar from '@mui/material/AppBar';
-import Box from '@mui/material/Box';
-import Toolbar from '@mui/material/Toolbar';
-import IconButton from '@mui/material/IconButton';
-import Menu from '@mui/material/Menu';
-import MenuIcon from '@mui/icons-material/Menu';
-import Container from '@mui/material/Container';
-import Button from '@mui/material/Button';
-import Tooltip from '@mui/material/Tooltip';
-import imgNavbar from '../../img/oro2.png'
-import { Drawer } from "@mui/material";
-import { useTranslation } from 'react-i18next';
 
-export default function Navbar({lang , dir }) {
-    const { t } = useTranslation();
+import React from "react";
+import AppBar from "@mui/material/AppBar";
+import Box from "@mui/material/Box";
+import Toolbar from "@mui/material/Toolbar";
+import IconButton from "@mui/material/IconButton";
+import Menu from "@mui/material/Menu";
+import MenuIcon from "@mui/icons-material/Menu";
+import Container from "@mui/material/Container";
+import Button from "@mui/material/Button";
+import Tooltip from "@mui/material/Tooltip";
+import imgNavbar from "../../img/oro2.png";
+import { Drawer } from "@mui/material";
+import { useTranslation } from "react-i18next";
+
+export default function Navbar({ lang, dir }) {
+  const { t } = useTranslation();
 
   const pages = [
     t("home"),
@@ -23,25 +24,22 @@ export default function Navbar({lang , dir }) {
     t("pricing"),
     t("contact"),
 
-   
     // Trim remove space
   ].map((page) => page.trim());
 
   const [anchorElUser, setAnchorElUser] = React.useState(null);
-const [isDrawerOpen, setIsDrawerOpen] = React.useState(false);
+  const [isDrawerOpen, setIsDrawerOpen] = React.useState(false);
 
-const toggleDrawer = () => {
-  setIsDrawerOpen(!isDrawerOpen);
+  const toggleDrawer = () => {
+    setIsDrawerOpen(!isDrawerOpen);
   };
-  
+
   const scrollToSection = (id) => {
     document.getElementById(id).scrollIntoView({
       behavior: "smooth",
       block: "start",
     });
   };
- 
-  
 
   const handleCloseUserMenu = () => {
     setAnchorElUser(null);
@@ -58,7 +56,7 @@ const toggleDrawer = () => {
             //  font for the language
             fontFamily:
               lang === "ar"
-                ? "'Assistant', sans-serif "
+                ? "'Cairo', sans-serif"
                 : "'Montserrat', sans-serif",
           },
         }}
@@ -68,7 +66,7 @@ const toggleDrawer = () => {
           <Toolbar disableGutters>
             <Box sx={{ flexGrow: 1 }}>
               <Tooltip title="Open settings">
-                <IconButton sx={{ p: 0 , justifyContent:"start" }}>
+                <IconButton sx={{ p: 0, justifyContent: "start" }}>
                   <img
                     className="styleImgNavbar mx-5 mt-3"
                     src={imgNavbar}
@@ -77,7 +75,7 @@ const toggleDrawer = () => {
                 </IconButton>
               </Tooltip>
               <Menu
-                sx={{ mt: "45px", color: "red" }}
+                sx={{ mt: "45px" }}
                 id="menu-appbar"
                 anchorEl={anchorElUser}
                 anchorOrigin={{
@@ -109,7 +107,7 @@ const toggleDrawer = () => {
                     <Button
                       key={page}
                       fullWidth
-                      sx={{ my: 2, color: "black" }}
+                      sx={{ my: 4, color: "black" }}
                       // href={`#${page.toLowerCase()}`}
                       href={
                         lang === "en" ? `#${page.toLowerCase()}` : `#${page}`
