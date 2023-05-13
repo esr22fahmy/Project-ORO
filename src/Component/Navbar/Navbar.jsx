@@ -68,7 +68,7 @@ const toggleDrawer = () => {
           <Toolbar disableGutters>
             <Box sx={{ flexGrow: 1 }}>
               <Tooltip title="Open settings">
-                <IconButton sx={{ p: 0 , justifyContent:Start }}>
+                <IconButton sx={{ p: 0 , justifyContent:"start"}}>
                   <img
                     className="styleImgNavbar mx-5 mt-3"
                     src={imgNavbar}
