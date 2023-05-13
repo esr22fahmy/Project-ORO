@@ -109,7 +109,7 @@ const toggleDrawer = () => {
                     <Button
                       key={page}
                       fullWidth
-                      sx={{ my: 2, color: "black" }}
+                      sx={{ my: 4, color: "black" }}
                       // href={`#${page.toLowerCase()}`}
                       href={
                         lang === "en" ? `#${page.toLowerCase()}` : `#${page}`
