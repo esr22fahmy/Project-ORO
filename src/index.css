@@ -97,6 +97,7 @@ object{
 }
 
 
+
 .btnChangeLang{
   position: absolute;
   top: 1.1rem;
@@ -108,7 +109,11 @@ object{
 }
 
 
-
 .css-148fdm8 {
-      justify-content: start !important;
+      justify-content: left !important;
+}
+
+
+.css-1t0e2o a:hover{
+  color: white !important;
 }

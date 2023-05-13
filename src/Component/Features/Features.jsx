@@ -1,4 +1,5 @@
 import React from "react";
+// eslint-disable-next-line no-unused-vars
 import img1 from "../../img/1.png";
 import img2 from "../../img/2.png";
 import img3 from "../../img/3.png";
@@ -100,7 +101,7 @@ export default function Pricing({ lang, dir }) {
                     <h4 className={`${styleFeatures.word} ms-5`}>
                       {t("HTML5")}
                     </h4>
-                    <p className={`${styleFeatures.paragraph} `}>
+                    <p className={`${styleFeatures.paragraph}`}>
                       {t("paragraphHTML5")}
                     </p>
                   </div>
@@ -125,22 +126,21 @@ export default function Pricing({ lang, dir }) {
                   <span className={`${styleFeatures.icon2}`}>
                     <lord-icon
                       src="https://cdn.lordicon.com/rgyftmhc.json"
-                      trigger="hover"
+                      trigger="morph"
                       colors="primary:#A28547,secondary:#A28547"
                       style={{ width: "50px", height: "50px" }}
                     ></lord-icon>
                     <div className=" clearfix"></div>
                   </span>
-                  <div className="text">
-                    <div className={`${styleFeatures.contText} ms-5`}>
+                  <div className="text ">
+                    <div>
                       <h4 className={`${styleFeatures.word} ms-5`}>
                         {t("Modern")}
                       </h4>
-                      <p className={`${styleFeatures.paragraph} ms-4`}>
+                      <p className={`${styleFeatures.paragraph}`}>
                         {t("paragraphModern")}
                       </p>
                     </div>
-                    <div className=" clearfix"></div>
                   </div>
                 </div>
                 {/* 2 */}
@@ -151,19 +151,19 @@ export default function Pricing({ lang, dir }) {
                   <span className={`${styleFeatures.icon2}`}>
                     <lord-icon
                       src="https://cdn.lordicon.com/cmrzxpzz.json"
-                      trigger="hover"
+                      trigger="morph"
                       colors="primary:#A28547,secondary:#A28547"
                       style={{ width: "50px", height: "50px" }}
                     ></lord-icon>
 
                     <div className=" clearfix"></div>
                   </span>
-                  <div className={`${styleFeatures.contText} ms-5`}>
+                  <div className="text ">
                     <div>
                       <h4 className={`${styleFeatures.word} ms-5`}>
                         {t("Multi")}
                       </h4>
-                      <p className={`${styleFeatures.paragraph} ms-4`}>
+                      <p className={`${styleFeatures.paragraph}`}>
                         {t("paragraphMulti")}
                       </p>
                     </div>
@@ -184,13 +184,14 @@ export default function Pricing({ lang, dir }) {
                     <div className=" clearfix"></div>
                   </span>
                   <div className="text ">
-                    <div className={`${styleFeatures.contText} ms-5`}>
+                    <div>
                       <h4 className={`${styleFeatures.word} ms-5`}>
                         {t("Working")}
                       </h4>
-                      <p className={`${styleFeatures.paragraph} ms-4`}>
-                        {t("paragraphWorking")}
-                      </p>
+                        <p className={`${styleFeatures.paragraph}`}>
+                          {t("paragraphWorking")}
+                         
+                        </p>
                     </div>
                   </div>
                 </div>

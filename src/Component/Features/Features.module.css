@@ -82,7 +82,7 @@
 
 
 .paragraph{
-    color: #abacae;
+            color: #abacae;
 
 }
 
@@ -94,16 +94,10 @@
 }
 /*  */
 .icon2{
-    
-    float: left !important;
+    float: left;
     display: inline-block;
-    width: 0px;
+    width: 60px;
     height: 60px;
     text-align: center;
     z-index: 1;
 }
-
-.contText{
-    float: left;
-}
-

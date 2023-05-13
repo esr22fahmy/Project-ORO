@@ -9,7 +9,7 @@ import Contact from './Component/Contact/Contact'
 import Footer from './Component/Footer/Footer';
 import React, { useState } from "react";
 import i18n from "i18next";
-// const Home = await import("./Home.js");
+
 
 function App() {
   const [showSectUp, setShowSectUp] = useState(false);
