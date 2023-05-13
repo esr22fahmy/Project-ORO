@@ -1,11 +1,15 @@
 
+body[dir="ltr"] {
+  font-family: 'Assistant', sans-serif !important;
+  font-family: 'Montserrat', sans-serif !important;
+  background-color: rgb(16,16,16) !important;
+  color: #FFFFFF !important;
+}
 
 body{
-font-family: 'Assistant', sans-serif !important;
-font-family: 'Montserrat', sans-serif !important;
-
-background-color: rgb(16,16,16) !important;
-color: #FFFFFF !important;
+  font-family: 'Cairo', sans-serif;
+  background-color: rgb(16,16,16) !important;
+  color: #FFFFFF !important;
 }
 
 lord-icon{
