@@ -96,9 +96,6 @@ object{
 
 }
 
-.css-148fdm8 {
-      justify-content: left !important;
-}
 
 
 .btnChangeLang{
@@ -110,3 +107,9 @@ object{
   font-weight: 700;
   padding: 2px 8px;
 }
+
+
+.css-148fdm8 {
+      justify-content: left !important;
+}
+
