@@ -74,7 +74,7 @@ export default function Contact({ lang, dir }) {
                       </div>
                       <div className="">
                         <button
-                          className={`${styleContent.btn}  text-uppercase  `}
+                          className={`${styleContent.btn}  text-uppercase mb-4  mb-lg-0 mb-xl-0`}
                           id="form-submit"
                           type="submit"
                         >
@@ -86,7 +86,7 @@ export default function Contact({ lang, dir }) {
                 </form>
               </div>
             </div>
-            <div className="col-lg-5 col-md-12 col-xs-12">
+            <div className="col-lg-5 col-md-12 col-xs-12 ">
               <div className="map w-100 h-100">
                 <object data="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d34015.943594576835!2d-106.43242624069771!3d31.677719472407432!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86e75d90e99d597b%3A0x6cd3eb9a9fcd23f1!2sCourtyard+by+Marriott+Ciudad+Juarez!5e0!3m2!1sen!2sbd!4v1533791187584"></object>
               </div>
