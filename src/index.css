@@ -48,6 +48,17 @@ display: flex !important;
 justify-content: center !important;
 align-items: center !important;
 }
+
+.css-1q39md6-MuiButtonBase-root-MuiButton-root {
+  padding: 6px 20px !important;
+  min-width: 90px !important;
+
+}
+
+.css-1t0e2o:hover{
+  color: white !important;
+}
+
 /* end navbar */
 
 a {
@@ -143,18 +154,11 @@ object{
 }
 
 
-.css-1t0e2o:hover{
-  color: white !important;
-}
-
-.css-1q39md6-MuiButtonBase-root-MuiButton-root {
-  padding: 6px 20px !important;
-  min-width: 90px !important;
-
-}
 
 ul{
   padding: 0 !important;
 }
+
+
 
 
