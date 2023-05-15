@@ -80,3 +80,9 @@ color: var(--colorGold);
     display: flex;
     align-items: center; */
 }
+
+@media(max-width:500px){
+.sectionHome{
+    margin: 0rem 0.3rem !important;
+}
+}

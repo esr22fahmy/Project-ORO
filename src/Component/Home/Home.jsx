@@ -37,7 +37,7 @@ const { t } = useTranslation("home");
 
           <div className="row">
             <div className="col-md-8 col-lg-6 mt-5 mt-lg-0 mt-xl-0">
-              <button className={`${styleHome.btnDown} `}>
+              <button className={`${styleHome.btnDown} mb-3 mb-lg-0 mb-xl-0 `}>
                 {t("Download")}
               </button>
 

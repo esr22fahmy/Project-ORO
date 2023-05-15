@@ -5,7 +5,13 @@
 }
 
 .sec{
-    padding: 0 5rem !important;
+    margin: 0 5rem !important;
+}
+
+@media(max-width:500px){
+.sec{
+    margin: 0 1rem !important;
+}
 }
 
 .Manage{

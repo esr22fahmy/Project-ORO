@@ -49,7 +49,7 @@ export default function Pricing({ lang, dir }) {
                     <div className=" clearfix"></div>
                   </span>
                   <div className="text">
-                    <h4 className={`${styleFeatures.word} ms-5`}>
+                    <h4 className={`${styleFeatures.word} ms-md-5 ms-sm-5 ms-lg-5 ms-xl-5`}>
                       {t("Bootstrap")}
                     </h4>
                     <p className={`${styleFeatures.paragraph}`}>
@@ -72,7 +72,7 @@ export default function Pricing({ lang, dir }) {
                     <div className=" clearfix"></div>
                   </span>
                   <div className="text">
-                    <h4 className={`${styleFeatures.word} ms-5`}>
+                    <h4 className={`${styleFeatures.word}ms-md-5 ms-sm-5 ms-lg-5 ms-xl-5`}>
                       {t("Fully")}
                     </h4>
                     <p className={`${styleFeatures.paragraph}`}>
@@ -96,7 +96,7 @@ export default function Pricing({ lang, dir }) {
                     <div className=" clearfix"></div>
                   </span>
                   <div className="text">
-                    <h4 className={`${styleFeatures.word} ms-5`}>
+                    <h4 className={`${styleFeatures.word}ms-md-5 ms-sm-5 ms-lg-5 ms-xl-5`}>
                       {t("HTML5")}
                     </h4>
                     <p className={`${styleFeatures.paragraph}`}>
@@ -132,7 +132,7 @@ export default function Pricing({ lang, dir }) {
                   </span>
                   <div className="text ">
                     <div>
-                      <h4 className={`${styleFeatures.word} ms-5`}>
+                      <h4 className={`${styleFeatures.word}ms-md-5 ms-sm-5 ms-lg-5 ms-xl-5`}>
                         {t("Modern")}
                       </h4>
                       <p className={`${styleFeatures.paragraph}`}>
@@ -158,7 +158,7 @@ export default function Pricing({ lang, dir }) {
                   </span>
                   <div className="text ">
                     <div>
-                      <h4 className={`${styleFeatures.word} ms-5`}>
+                      <h4 className={`${styleFeatures.word}ms-md-5 ms-sm-5 ms-lg-5 ms-xl-5`}>
                         {t("Multi")}
                       </h4>
                       <p className={`${styleFeatures.paragraph}`}>
@@ -183,7 +183,7 @@ export default function Pricing({ lang, dir }) {
                   </span>
                   <div className="text ">
                     <div>
-                      <h4 className={`${styleFeatures.word} ms-5`}>
+                      <h4 className={`${styleFeatures.word}ms-md-5 ms-sm-5 ms-lg-5 ms-xl-5`}>
                         {t("Working")}
                       </h4>
                         <p className={`${styleFeatures.paragraph}`}>

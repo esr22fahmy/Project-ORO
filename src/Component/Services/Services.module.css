@@ -4,9 +4,7 @@
     --colorWhite:#FFFFFF;
 }
 
-/* .bground{
-    background-color: rgb(249,249,249) !important;
-} */
+
 
 .our{
     font-size: 30px;
@@ -96,3 +94,8 @@
     margin: 0rem 5rem !important;
 }
 
+@media(max-width:500px){
+.spaceX{
+    margin: 0rem 1rem !important;
+}
+}

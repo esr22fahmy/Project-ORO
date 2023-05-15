@@ -6,10 +6,6 @@
 }
 
 
-/* .bground{
-    background-color: rgb(249,249,249) !important;
-} */
-
 .sectionTitle{
     font-size: 30px;
     display: inline-block;
@@ -60,7 +56,14 @@
 .spaceX{
     margin: 0rem 5rem !important;
 }
-
+@media(max-width:500px){
+.spaceX{
+    margin: 0rem 1rem !important;
+}
+.boxItem{
+    height: 12rem;
+}
+}
 .icon{
    float: right !important;
        display: inline-block;

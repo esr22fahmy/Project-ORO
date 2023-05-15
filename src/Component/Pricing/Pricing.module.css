@@ -123,3 +123,9 @@
 .spaceX{
     margin: 0rem 5rem !important;
 }
+
+@media(max-width:500px){
+.spaceX{
+    margin: 0rem 1rem !important;
+}
+}

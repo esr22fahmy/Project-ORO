@@ -15,6 +15,13 @@
 
 }
 
+@media(max-width:500px){
+.secFooter{
+        padding: 0rem 1rem !important;
+
+}
+}
+
 .textwid{
     width: 75%;
 }
