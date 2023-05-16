@@ -10,7 +10,9 @@ body[dir="ltr"] {
 body{
     font-family: 'Cairo', sans-serif;
 
-    
+    background-color: rgb(16,16,16) !important;
+  color: #FFFFFF !important;
+  overflow-x: hidden;
     
 }
 

@@ -56,7 +56,7 @@
 .spaceX{
     margin: 0rem 5rem !important;
 }
-@media(max-width:500px){
+@media(max-width:450px){
 .spaceX{
     margin: 0rem 1rem !important;
 }
