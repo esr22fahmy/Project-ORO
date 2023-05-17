@@ -11,6 +11,8 @@ import Tooltip from "@mui/material/Tooltip";
 import imgNavbar from "../../img/oro2.png";
 import { Drawer } from "@mui/material";
 import { useTranslation } from "react-i18next";
+import styleNav from "./Navbar.module.css";
+
 
 export default function Navbar({ lang, dir }) {
   const { t } = useTranslation();
@@ -67,7 +69,7 @@ export default function Navbar({ lang, dir }) {
               <Tooltip title="Open settings">
                 <IconButton sx={{ p: 0, justifyContent: "start" }}>
                   <img
-                    className="styleImgNavbar mx-5 mt-3"
+                    className={`${styleNav.styleImgNavbar} mt-3`}
                     src={imgNavbar}
                     alt=""
                   />
@@ -121,6 +123,7 @@ export default function Navbar({ lang, dir }) {
 
             <Box sx={{ flexGrow: 0, display: { xs: "none", md: "flex" } }}>
               <Button
+                className={`${styleNav.linkNav}`}
                 sx={{ my: 2, color: "white", display: "block" }}
                 onClick={() => scrollToSection("home")}
                 // href={t("#home")}
@@ -129,6 +132,7 @@ export default function Navbar({ lang, dir }) {
                 {t("home")}
               </Button>
               <Button
+                className={`${styleNav.linkNav}`}
                 sx={{ my: 2, color: "white", display: "block" }}
                 onClick={() => scrollToSection("services")}
                 href={lang === "en" ? "#services" : "#الخدمات"}
@@ -136,6 +140,7 @@ export default function Navbar({ lang, dir }) {
                 {t("services")}
               </Button>
               <Button
+                className={`${styleNav.linkNav}`}
                 sx={{ my: 2, color: "white", display: "block" }}
                 onClick={() => scrollToSection("manage")}
                 href={lang === "en" ? "#manage" : "#الإدارة"}
@@ -143,6 +148,7 @@ export default function Navbar({ lang, dir }) {
                 {t("manage")}
               </Button>
               <Button
+                className={`${styleNav.linkNav}`}
                 sx={{ my: 2, color: "white", display: "block" }}
                 onClick={() => scrollToSection("features")}
                 href={lang === "en" ? "#features" : "#المميزات"}
@@ -150,6 +156,7 @@ export default function Navbar({ lang, dir }) {
                 {t("features")}
               </Button>
               <Button
+                className={`${styleNav.linkNav}`}
                 sx={{ my: 2, color: "white", display: "block" }}
                 onClick={() => scrollToSection("pricing")}
                 href={lang === "en" ? "#pricing" : "#التسعير"}
@@ -157,6 +164,7 @@ export default function Navbar({ lang, dir }) {
                 {t("pricing")}
               </Button>
               <Button
+                className={`${styleNav.linkNav}`}
                 sx={{ my: 2, color: "white", display: "block" }}
                 onClick={() => scrollToSection("contact")}
                 href={lang === "en" ? "#Contact" : "# اتصل بنا"}

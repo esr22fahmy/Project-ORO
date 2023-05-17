@@ -1,0 +1,17 @@
+.styleImgNavbar{
+  width: 12% !important;
+/* padding-top: 1.5rem; */
+}
+
+@media(max-width:500px){
+.styleImgNavbar{
+width: 17% !important;
+}
+
+}
+
+.linkNav{
+  padding: 6px 15px !important;
+   min-width: 80px !important;
+   color: white !important;
+}

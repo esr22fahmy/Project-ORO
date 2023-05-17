@@ -27,17 +27,12 @@ lord-icon{
     width: 90%;
    
 }
-.css-1q39md6-MuiButtonBase-root-MuiButton-root {
-    color: white !important;
-}
+
 .css-1hskriy {
     width: 100% !important;
 }
 .css-4t3x6l-MuiPaper-root-MuiDrawer-paper{
   left: 5% !important;
-}
-.css-1q39md6-MuiButtonBase-root-MuiButton-root {
-  min-width: 100px !important;
 }
 
 .css-i4bv87-MuiSvgIcon-root{
@@ -50,15 +45,13 @@ justify-content: center !important;
 align-items: center !important;
 }
 
-.css-1q39md6-MuiButtonBase-root-MuiButton-root {
-  padding: 6px 20px !important;
-  min-width: 90px !important;
+ /* .css-1q39md6-MuiButtonBase-root-MuiButton-root {
+   padding: 6px 20px !important;
+   min-width: 90px !important;
+   color: white !important;
 
-}
+} */
 
-.css-1t0e2o:hover{
-  color: white !important;
-}
 
 /* end navbar */
 
@@ -93,10 +86,7 @@ object{
   justify-content: start !important;
 }
 
-.styleImgNavbar{
-  width: 12% !important;
-/* padding-top: 1.5rem; */
-}
+
 
 
 .scrollUp{
@@ -155,15 +145,7 @@ object{
 }
 
 
-.css-1t0e2o:hover{
-  color: white !important;
-}
 
-.css-1q39md6-MuiButtonBase-root-MuiButton-root {
-  padding: 6px 20px !important;
-  min-width: 90px !important;
-
-}
 
 ul{
   padding: 0 !important;
