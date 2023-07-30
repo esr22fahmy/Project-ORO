@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Project-ORO/static/css/main.d44df9e1.css",
-    "main.js": "/Project-ORO/static/js/main.539a6b29.js",
+    "main.css": "/Project-ORO/static/css/main.bbc22e8b.css",
+    "main.js": "/Project-ORO/static/js/main.4b49c160.js",
     "static/js/787.2dbc888d.chunk.js": "/Project-ORO/static/js/787.2dbc888d.chunk.js",
     "static/media/homeIMG.png": "/Project-ORO/static/media/homeIMG.d3248fb35410f9e71a8f.png",
     "static/media/6.png": "/Project-ORO/static/media/6.10628b447e64897c5c54.png",
@@ -24,12 +24,12 @@
     "static/media/fa-v4compatibility.ttf": "/Project-ORO/static/media/fa-v4compatibility.0e3a648be390bd8cb094.ttf",
     "static/media/fa-v4compatibility.woff2": "/Project-ORO/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
     "index.html": "/Project-ORO/index.html",
-    "main.d44df9e1.css.map": "/Project-ORO/static/css/main.d44df9e1.css.map",
-    "main.539a6b29.js.map": "/Project-ORO/static/js/main.539a6b29.js.map",
+    "main.bbc22e8b.css.map": "/Project-ORO/static/css/main.bbc22e8b.css.map",
+    "main.4b49c160.js.map": "/Project-ORO/static/js/main.4b49c160.js.map",
     "787.2dbc888d.chunk.js.map": "/Project-ORO/static/js/787.2dbc888d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d44df9e1.css",
-    "static/js/main.539a6b29.js"
+    "static/css/main.bbc22e8b.css",
+    "static/js/main.4b49c160.js"
   ]
 }
