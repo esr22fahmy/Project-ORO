@@ -12,7 +12,12 @@ const { t } = useTranslation("home");
       <section
         id={lang === "en" ? "home" : "الصفحة الرئيسية"}
         className={`${styleHome.sectionHome}`}
-        style={{ direction: dir }}
+        style={{
+          direction: dir,
+          // fontFamily:
+          //   lang === "en" ? "Assistant, sans-serif" : "Cairo, sans-serif",
+
+        }}
       >
         <div className=" container  ">
           <div className=" row   ">

@@ -3,14 +3,18 @@ import styleFooter from "./Footer.module.css";
 import imgFooter from "../../img/oro2.png";
 import { useTranslation } from "react-i18next";
 
-export default function Footer({ dir }) {
+export default function Footer({ dir ,lang}) {
   const { t } = useTranslation("footer");
 
   return (
     <>
       <footer
         className={`${styleFooter.secFooter} container py-5 `}
-        style={{ direction: dir }}
+        style={{
+          direction: dir,
+          // fontFamily:
+          //   lang === "en" ? "Assistant, sans-serif" : "Cairo, sans-serif",
+        }}
       >
         <div className="container py-5 ">
           <div className="container">

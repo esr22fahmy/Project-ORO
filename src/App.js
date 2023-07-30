@@ -68,6 +68,9 @@ function App() {
       <button
         className="btnChangeLang   rounded-1 "
         onClick={handleLanguageChange}
+        style={{
+          left: language === "en" ? "55%" : "45%",
+        }}
       >
         {language === "en" ? "العربية " : "english"}
       </button>

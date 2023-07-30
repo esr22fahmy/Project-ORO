@@ -1,112 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Assistant:wght@300;400&family=Cairo:wght@700&family=Montserrat:wght@700&display=swap");
 
-body[dir="ltr"] {
-  font-family: 'Assistant', sans-serif !important;
-  font-family: 'Montserrat', sans-serif !important;
-  background-color: rgb(16,16,16) !important;
-  color: #FFFFFF !important;
+/* body[dir="ltr"] {
+ font-family: 'Assistant', sans-serif;
+  font-family: 'Cairo', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+
+  background-color: rgb(16, 16, 16) !important;
+  color: #ffffff !important;
+  overflow-x: hidden;
+} */
+
+body {
+  font-family: "Cairo", sans-serif !important;
+  background-color: rgb(16, 16, 16) !important;
+
+  color: #ffffff !important;
   overflow-x: hidden;
 }
 
-body{
-    font-family: 'Cairo', sans-serif;
-
-    background-color: rgb(16,16,16) !important;
-  color: #FFFFFF !important;
-  overflow-x: hidden;
-    
-}
-
-
-lord-icon{
+lord-icon {
   margin-top: 1rem;
 }
 /* navbar */
 .css-4t3x6l-MuiPaper-root-MuiDrawer-paper {
-    
-    height: 50% !important;
-    width: 90%;
-   
+  height: 50% !important;
+  width: 90%;
 }
 
 .css-1hskriy {
-    width: 100% !important;
+  width: 100% !important;
 }
-.css-4t3x6l-MuiPaper-root-MuiDrawer-paper{
+.css-4t3x6l-MuiPaper-root-MuiDrawer-paper {
   left: 5% !important;
 }
 
-.css-i4bv87-MuiSvgIcon-root{
+.css-i4bv87-MuiSvgIcon-root {
   transition: fill 0.5s cubic-bezier(0.4, 0, 0.2, 1) 0ms;
   font-size: 2rem;
 }
-.css-1q39md6-MuiButtonBase-root-MuiButton-root{
-display: flex !important;
-justify-content: center !important;
-align-items: center !important;
+.css-1q39md6-MuiButtonBase-root-MuiButton-root {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
 }
 
- /* .css-1q39md6-MuiButtonBase-root-MuiButton-root {
+/* .css-1q39md6-MuiButtonBase-root-MuiButton-root {
    padding: 6px 20px !important;
    min-width: 90px !important;
    color: white !important;
 
 } */
 
-
 /* end navbar */
 
 a {
-    text-decoration: none !important;
+  text-decoration: none !important;
 }
 
-li{
-list-style: none;
+li {
+  list-style: none;
 }
 
-object{
+object {
   width: 100%;
   height: 100% !important;
-    min-width:90% !important;
-
-
+  min-width: 90% !important;
 }
 
-
-
-#myImage{
-    width: 170%!important;
-
-   
- 
+#myImage {
+  width: 170% !important;
 }
-
-
 
 .css-av538e-MuiButtonBase-root-MuiIconButton-root {
   justify-content: start !important;
 }
 
-
-
-
-.scrollUp{
-    position: fixed;
-    right: 15px;
-    bottom: 15px;
-    width: 50px;
-    height: 50px;
-    text-align: center;
-    color: #fff;
-    background: #A28547;
-    line-height: 50px;
-    z-index: 999;
-    border: none;
-    border-radius: 50%;
-
+.scrollUp {
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  color: #fff;
+  background: #a28547;
+  line-height: 50px;
+  z-index: 999;
+  border: none;
+  border-radius: 50%;
 }
 
-@media(max-width:500px){
-.scrollUp{
+@media (max-width: 500px) {
+  .scrollUp {
     position: fixed;
     right: 55px;
     bottom: 30px;
@@ -114,39 +99,31 @@ object{
     height: 50px;
     text-align: center;
     color: #fff;
-    background: #A28547;
+    background: #a28547;
     line-height: 50px;
     z-index: 999;
     border: none;
     border-radius: 50%;
-      cursor: pointer;
-
-
-}
+    cursor: pointer;
+  }
 }
 
-
-
-.btnChangeLang{
+.btnChangeLang {
   position: absolute;
   top: 1.1rem;
-  left: 50%;
+  /* left: 40%; */
   transform: translateX(-50%);
-  color: #A28547;
+  color: #a28547;
   font-weight: 700;
   padding: 2px 8px;
-    cursor: pointer;
-
+  cursor: pointer;
 }
-
 
 .css-148fdm8 {
-      justify-content: left !important;
+  justify-content: left !important;
 }
 
-
-
-
-ul{
+ul {
   padding: 0 !important;
 }
+

@@ -12,7 +12,11 @@ export default function Services({ lang, dir }) {
       <section
         id={lang === "en" ? "services" : "الخدمات"}
         className={`${styleServices.bground} py-5 `}
-        style={{ direction: dir }}
+        style={{
+          direction: dir,
+          // fontFamily:
+          //   lang === "en" ? "Assistant, sans-serif" : "Cairo, sans-serif",
+        }}
       >
         <div className=" container  ">
           <div className="text-center">

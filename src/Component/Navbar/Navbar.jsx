@@ -55,10 +55,10 @@ export default function Navbar({ lang, dir }) {
           direction: dir,
           "& *": {
             //  font for the language
-            fontFamily:
-              lang === "ar"
-                ? "'Cairo', sans-serif"
-                : "'Montserrat', sans-serif",
+            // fontFamily:
+            //   lang === "ar"
+            //     ? "'Cairo', sans-serif"
+            //     : "'Montserrat', sans-serif",
           },
         }}
         position="static"

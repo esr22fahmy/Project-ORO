@@ -13,7 +13,11 @@ export default function Testimonial({ lang, dir }) {
       <section
         id={lang === "en" ? "pricing" : "التسعير"}
         className="section-padding py-5   "
-        style={{ direction: dir }}
+        style={{
+          direction: dir,
+          // fontFamily:
+          //   lang === "en" ? "Assistant, sans-serif" : "Cairo, sans-serif",
+        }}
       >
         <div className="container ">
           <div className="section-header text-center">

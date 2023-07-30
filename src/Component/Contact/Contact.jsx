@@ -11,7 +11,11 @@ export default function Contact({ lang, dir }) {
       <section
         id={lang === "en" ? "contact" : "اتصل بنا"}
         className={`${styleContent.sec} py-5`}
-        style={{ direction: dir }}
+        style={{
+          direction: dir,
+          // fontFamily:
+          //   lang === "en" ? "Assistant, sans-serif" : "Cairo, sans-serif",
+        }}
       >
         <div className="container">
           <div className="section-header text-center">
